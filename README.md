@@ -67,39 +67,6 @@ src/
 - **Kotlin** (optional if using Gradle to run the project)
 - **Gradle** (if you want to build/run via Gradle scripts)
 
-### Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/<YourUserName>/<RepositoryName>.git
-   cd <RepositoryName>
-   ```
-
-2. *(Optional)* **Check/Install Kotlin**:
-   ```bash
-   # On macOS with Homebrew
-   brew install kotlin
-   # or using SDKMAN
-   sdk install kotlin
-   ```
-
-3. **(If Gradle Project)** Run:
-   ```bash
-   ./gradlew run
-   ```
-   On Windows:
-   ```bash
-   gradlew.bat run
-   ```
-
-If you prefer **manual compilation** (without Gradle), you can do:
-```bash
-kotlinc src/main/kotlin/**/*.kt -include-runtime -d conversions-cli.jar
-java -jar conversions-cli.jar
-```
-
----
-
 ## Usage
 
 After running the application, you’ll see a **main menu** similar to:
